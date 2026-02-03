@@ -178,6 +178,15 @@
                     </webApp>
                 </configuration>
             </plugin>
+			<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.4.0</version> <!-- or latest stable -->
+			</plugin>
+		</plugins>
+	</build>
+
 		<!-- CODE COVERAGE -->
  		    <plugin>
  		        <groupId>org.jacoco</groupId>
